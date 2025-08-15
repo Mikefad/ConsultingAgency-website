@@ -115,6 +115,9 @@ const Header = () => {
           style={{ background: COLORS.surface, border: `1px solid ${COLORS.border}` }}
         >
           <div className="grid gap-2" aria-label="Mobile navigation links">
+            <Link to="/services" className="rounded-md px-3 py-2 text-sm font-medium" style={{ color: COLORS.text }}>
+              Services
+            </Link>
             <Link to="/solutions" className="rounded-md px-3 py-2 text-sm font-medium" style={{ color: COLORS.text }}>
               Solutions
             </Link>
@@ -123,6 +126,9 @@ const Header = () => {
             </Link>
             <Link to="/insights" className="rounded-md px-3 py-2 text-sm font-medium" style={{ color: COLORS.text }}>
               Insights
+            </Link>
+            <Link to="/blog" className="rounded-md px-3 py-2 text-sm font-medium" style={{ color: COLORS.text }}>
+              Blog
             </Link>
             <Link to="/careers" className="rounded-md px-3 py-2 text-sm font-medium" style={{ color: COLORS.text }}>
               Careers
